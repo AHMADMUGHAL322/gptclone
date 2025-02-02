@@ -1,0 +1,14 @@
+@keyframes blink-caret {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.MuiInputBase-input {
+  caret-color: #1976d2;
+  caret-shape: block;
+}
+
+/* Remove default focus outline */
+.MuiInputBase-input:focus {
+  outline: none;
+}
